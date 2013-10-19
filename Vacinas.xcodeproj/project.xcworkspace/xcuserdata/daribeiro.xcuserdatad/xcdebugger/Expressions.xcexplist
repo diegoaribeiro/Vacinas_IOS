@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[TabelaPessoasViewController viewDidLoad]:TabelaPessoasViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[TabelaPessoasViewController tableView:numberOfRowsInSection:]:TabelaPessoasViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.pessoas count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TabelaPessoasViewController tableView:cellForRowAtIndexPath:]:TabelaPessoasViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[tableView dequeueReusableCellWithIdentifier:@&quot;PlayerCel&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
