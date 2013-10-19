@@ -68,7 +68,7 @@
     NSString *arquivo = [[NSBundle mainBundle] pathForResource:@"bebe" ofType:@"jpg"];
     self.pessoas = [[NSMutableArray alloc]initWithCapacity:20];
     
-    NSLog(@"teste git");
+    NSLog(@"teste gi");
     
     NSData *foto = [NSData dataWithContentsOfFile:arquivo];
     

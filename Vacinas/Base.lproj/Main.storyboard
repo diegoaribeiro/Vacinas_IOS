@@ -78,7 +78,10 @@
                             <outlet property="delegate" destination="F8d-XI-qqj" id="mt7-9h-wOL"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="mCF-jE-BBk"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="mCF-jE-BBk">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="E9j-U3-qqk"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="DkK-LP-3BU"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tabela" destination="HuC-ko-0M3" id="tmA-6d-YM0"/>
                     </connections>
