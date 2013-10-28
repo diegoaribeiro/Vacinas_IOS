@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BD811A0181E9F51003BFE15 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8119E181E9F51003BFE15 /* Model.xcdatamodeld */; };
+		4BD811A3181EA222003BFE15 /* ImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD811A2181EA222003BFE15 /* ImageToDataTransformer.m */; };
+		4BD811C1181EB136003BFE15 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD811C0181EB136003BFE15 /* Pessoa.m */; };
+		4BD811C4181EB136003BFE15 /* Dose.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD811C3181EB136003BFE15 /* Dose.m */; };
+		4BD811C7181EB136003BFE15 /* Vacina.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD811C6181EB136003BFE15 /* Vacina.m */; };
+		4BD811CA181EB136003BFE15 /* Evento.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD811C9181EB136003BFE15 /* Evento.m */; };
 		DFAC8B6418085FA1009EA6F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC8B6318085FA1009EA6F1 /* Foundation.framework */; };
 		DFAC8B6618085FA1009EA6F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC8B6518085FA1009EA6F1 /* CoreGraphics.framework */; };
 		DFAC8B6818085FA1009EA6F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC8B6718085FA1009EA6F1 /* UIKit.framework */; };
@@ -22,8 +28,6 @@
 		DFAC8B8D18085FA1009EA6F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFAC8B8B18085FA1009EA6F1 /* InfoPlist.strings */; };
 		DFAC8B8F18085FA1009EA6F1 /* VacinasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC8B8E18085FA1009EA6F1 /* VacinasTests.m */; };
 		DFAC8B99180861DD009EA6F1 /* splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = DFAC8B98180861DD009EA6F1 /* splash.gif */; };
-		DFAC8B9E18086462009EA6F1 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC8B9D18086462009EA6F1 /* Pessoa.m */; };
-		DFAC8BA118086578009EA6F1 /* Vacina.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC8BA018086578009EA6F1 /* Vacina.m */; };
 		DFAC8C79180CD363009EA6F1 /* TabelaPessoasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC8C78180CD363009EA6F1 /* TabelaPessoasViewController.m */; };
 		DFAC8C7C180CE760009EA6F1 /* PessoaCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC8C7B180CE760009EA6F1 /* PessoaCellController.m */; };
 		DFAC8C7E180CEC8C009EA6F1 /* bebe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAC8C7D180CEC8C009EA6F1 /* bebe.jpg */; };
@@ -40,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BD8119F181E9F51003BFE15 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4BD811A1181EA222003BFE15 /* ImageToDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageToDataTransformer.h; sourceTree = "<group>"; };
+		4BD811A2181EA222003BFE15 /* ImageToDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageToDataTransformer.m; sourceTree = "<group>"; };
+		4BD811BF181EB136003BFE15 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		4BD811C0181EB136003BFE15 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
+		4BD811C2181EB136003BFE15 /* Dose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dose.h; sourceTree = "<group>"; };
+		4BD811C3181EB136003BFE15 /* Dose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dose.m; sourceTree = "<group>"; };
+		4BD811C5181EB136003BFE15 /* Vacina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vacina.h; sourceTree = "<group>"; };
+		4BD811C6181EB136003BFE15 /* Vacina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vacina.m; sourceTree = "<group>"; };
+		4BD811C8181EB136003BFE15 /* Evento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evento.h; sourceTree = "<group>"; };
+		4BD811C9181EB136003BFE15 /* Evento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Evento.m; sourceTree = "<group>"; };
 		DFAC8B6018085FA1009EA6F1 /* Vacinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vacinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAC8B6318085FA1009EA6F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFAC8B6518085FA1009EA6F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,10 +75,6 @@
 		DFAC8B8C18085FA1009EA6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFAC8B8E18085FA1009EA6F1 /* VacinasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VacinasTests.m; sourceTree = "<group>"; };
 		DFAC8B98180861DD009EA6F1 /* splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash.gif; sourceTree = "<group>"; };
-		DFAC8B9C18086462009EA6F1 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
-		DFAC8B9D18086462009EA6F1 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
-		DFAC8B9F18086578009EA6F1 /* Vacina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vacina.h; sourceTree = "<group>"; };
-		DFAC8BA018086578009EA6F1 /* Vacina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vacina.m; sourceTree = "<group>"; };
 		DFAC8C77180CD363009EA6F1 /* TabelaPessoasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabelaPessoasViewController.h; sourceTree = "<group>"; };
 		DFAC8C78180CD363009EA6F1 /* TabelaPessoasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabelaPessoasViewController.m; sourceTree = "<group>"; };
 		DFAC8C7A180CE760009EA6F1 /* PessoaCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PessoaCellController.h; sourceTree = "<group>"; };
@@ -181,10 +192,17 @@
 		DFAC8B9B1808631C009EA6F1 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				DFAC8B9C18086462009EA6F1 /* Pessoa.h */,
-				DFAC8B9D18086462009EA6F1 /* Pessoa.m */,
-				DFAC8B9F18086578009EA6F1 /* Vacina.h */,
-				DFAC8BA018086578009EA6F1 /* Vacina.m */,
+				4BD8119E181E9F51003BFE15 /* Model.xcdatamodeld */,
+				4BD811C8181EB136003BFE15 /* Evento.h */,
+				4BD811C9181EB136003BFE15 /* Evento.m */,
+				4BD811C5181EB136003BFE15 /* Vacina.h */,
+				4BD811C6181EB136003BFE15 /* Vacina.m */,
+				4BD811C2181EB136003BFE15 /* Dose.h */,
+				4BD811C3181EB136003BFE15 /* Dose.m */,
+				4BD811BF181EB136003BFE15 /* Pessoa.h */,
+				4BD811C0181EB136003BFE15 /* Pessoa.m */,
+				4BD811A1181EA222003BFE15 /* ImageToDataTransformer.h */,
+				4BD811A2181EA222003BFE15 /* ImageToDataTransformer.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -302,10 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFAC8C79180CD363009EA6F1 /* TabelaPessoasViewController.m in Sources */,
+				4BD811C1181EB136003BFE15 /* Pessoa.m in Sources */,
+				4BD811CA181EB136003BFE15 /* Evento.m in Sources */,
 				DFAC8B7A18085FA1009EA6F1 /* SplashViewController.m in Sources */,
+				4BD811C7181EB136003BFE15 /* Vacina.m in Sources */,
 				DFAC8B7418085FA1009EA6F1 /* AppDelegate.m in Sources */,
-				DFAC8BA118086578009EA6F1 /* Vacina.m in Sources */,
-				DFAC8B9E18086462009EA6F1 /* Pessoa.m in Sources */,
+				4BD811A3181EA222003BFE15 /* ImageToDataTransformer.m in Sources */,
+				4BD811C4181EB136003BFE15 /* Dose.m in Sources */,
+				4BD811A0181E9F51003BFE15 /* Model.xcdatamodeld in Sources */,
 				DFAC8C7C180CE760009EA6F1 /* PessoaCellController.m in Sources */,
 				DFAC8B7018085FA1009EA6F1 /* main.m in Sources */,
 			);
@@ -530,6 +552,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BD8119E181E9F51003BFE15 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BD8119F181E9F51003BFE15 /* Model.xcdatamodel */,
+			);
+			currentVersion = 4BD8119F181E9F51003BFE15 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DFAC8B5818085FA1009EA6F1 /* Project object */;
 }
