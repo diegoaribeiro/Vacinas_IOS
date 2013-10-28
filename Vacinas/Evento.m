@@ -1,21 +1,21 @@
 //
-//  Vacina.m
+//  Evento.m
 //  Vacinas
 //
 //  Created by joão melo on 28/10/13.
 //  Copyright (c) 2013 Diego Ribeiro. All rights reserved.
 //
 
-#import "Vacina.h"
+#import "Evento.h"
 #import "Dose.h"
+#import "Pessoa.h"
 
 
-@implementation Vacina
+@implementation Evento
 
-@dynamic nome;
-@dynamic apelido;
-@dynamic descricao;
-@dynamic isCriada;
-@dynamic doses;
+@dynamic planejado;
+@dynamic realizado;
+@dynamic dose;
+@dynamic pessoa;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  Pessoa.h
+//  Dose.h
 //  Vacinas
 //
 //  Created by joão melo on 28/10/13.
@@ -9,18 +9,17 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Evento;
+@class Evento, Vacina;
 
-@interface Pessoa : NSManagedObject
+@interface Dose : NSManagedObject
 
-@property (nonatomic, retain) NSString * nome;
-@property (nonatomic, retain) NSDate * nascimento;
-@property (nonatomic, retain) NSString * tipoSanguineo;
-@property (nonatomic, retain) id foto;
+@property (nonatomic, retain) NSNumber * ordem;
+@property (nonatomic, retain) NSNumber * mesIdeal;
+@property (nonatomic, retain) Vacina *vacina;
 @property (nonatomic, retain) NSSet *eventos;
 @end
 
-@interface Pessoa (CoreDataGeneratedAccessors)
+@interface Dose (CoreDataGeneratedAccessors)
 
 - (void)addEventosObject:(Evento *)value;
 - (void)removeEventosObject:(Evento *)value;

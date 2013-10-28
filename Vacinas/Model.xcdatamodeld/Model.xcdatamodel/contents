@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Dose" representedClassName="Dose" syncable="YES">
+        <attribute name="mesIdeal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ordem" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="eventos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Evento" inverseName="dose" inverseEntity="Evento" syncable="YES"/>
+        <relationship name="vacina" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vacina" inverseName="doses" inverseEntity="Vacina" syncable="YES"/>
+    </entity>
+    <entity name="Evento" representedClassName="Evento" syncable="YES">
+        <attribute name="planejado" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="realizado" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="dose" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dose" inverseName="eventos" inverseEntity="Dose" syncable="YES"/>
+        <relationship name="pessoa" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pessoa" inverseName="eventos" inverseEntity="Pessoa" syncable="YES"/>
+    </entity>
+    <entity name="Pessoa" representedClassName="Pessoa" syncable="YES">
+        <attribute name="foto" optional="YES" attributeType="Transformable" valueTransformerName="ImageToDataTransformer" syncable="YES"/>
+        <attribute name="nascimento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipoSanguineo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="eventos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Evento" inverseName="pessoa" inverseEntity="Evento" syncable="YES"/>
+    </entity>
+    <entity name="Vacina" representedClassName="Vacina" syncable="YES">
+        <attribute name="apelido" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descricao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isCriada" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="doses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dose" inverseName="vacina" inverseEntity="Dose" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Pessoa" positionX="160" positionY="192" width="128" height="118"/>
+        <element name="Vacina" positionX="702" positionY="27" width="128" height="118"/>
+        <element name="Dose" positionX="664" positionY="203" width="128" height="103"/>
+        <element name="Evento" positionX="412" positionY="203" width="128" height="103"/>
+    </elements>
+</model>
