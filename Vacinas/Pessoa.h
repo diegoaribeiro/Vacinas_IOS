@@ -2,19 +2,30 @@
 //  Pessoa.h
 //  Vacinas
 //
-//  Created by Diego Ribeiro on 11/10/13.
+//  Created by joão melo on 10/11/13.
 //  Copyright (c) 2013 Diego Ribeiro. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface Pessoa : NSObject
+@class Evento;
 
+@interface Pessoa : NSManagedObject
 
-@property (nonatomic,strong) NSString *nome;
-@property (nonatomic,strong) NSDate *dataNascimento;
-@property (nonatomic,strong) NSData *foto;
-@property (nonatomic,strong) NSArray *vacinas;
+@property (nonatomic, retain) id foto;
+@property (nonatomic, retain) NSDate * nascimento;
+@property (nonatomic, retain) NSString * nome;
+@property (nonatomic, retain) NSString * tipoSanguineo;
+@property (nonatomic, retain) NSString * descricao;
+@property (nonatomic, retain) NSSet *eventos;
+@end
 
-+ (Pessoa *) initWith: (NSString *)nome data:(NSDate *)nascimento foto: (NSData *)imagem;
+@interface Pessoa (CoreDataGeneratedAccessors)
+
+- (void)addEventosObject:(Evento *)value;
+- (void)removeEventosObject:(Evento *)value;
+- (void)addEventos:(NSSet *)values;
+- (void)removeEventos:(NSSet *)values;
+
 @end
