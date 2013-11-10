@@ -74,15 +74,14 @@
     
     
     
-    Pessoa *pessoa = [Pessoa initWith:@"Diego" data:[NSDate date] foto:foto];
-    [self.pessoas setObject:pessoa atIndexedSubscript:0];
+//    Pessoa *pessoa = [Pessoa initWith:@"Diego" data:[NSDate date] foto:foto];
+//    [self.pessoas setObject:pessoa atIndexedSubscript:0];
+
+//    pessoa = [Pessoa initWith:@"Ana" data: [NSDate date] foto:foto];
+//    [self.pessoas setObject:pessoa atIndexedSubscript:1];
     
-    pessoa = [Pessoa initWith:@"Ana" data: [NSDate date] foto:foto];
-    
-    [self.pessoas setObject:pessoa atIndexedSubscript:1];
-    
-    pessoa = [Pessoa initWith:@"Doia" data: [NSDate date] foto:foto];
-    [self.pessoas setObject:pessoa atIndexedSubscript:2];
+//    pessoa = [Pessoa initWith:@"Doia" data: [NSDate date] foto:foto];
+//    [self.pessoas setObject:pessoa atIndexedSubscript:2];
     
 }
                       

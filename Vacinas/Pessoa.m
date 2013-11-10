@@ -2,7 +2,7 @@
 //  Pessoa.m
 //  Vacinas
 //
-//  Created by joão melo on 28/10/13.
+//  Created by joão melo on 10/11/13.
 //  Copyright (c) 2013 Diego Ribeiro. All rights reserved.
 //
 
@@ -12,10 +12,11 @@
 
 @implementation Pessoa
 
-@dynamic nome;
-@dynamic nascimento;
-@dynamic tipoSanguineo;
 @dynamic foto;
+@dynamic nascimento;
+@dynamic nome;
+@dynamic tipoSanguineo;
+@dynamic descricao;
 @dynamic eventos;
 
 @end

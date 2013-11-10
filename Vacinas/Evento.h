@@ -2,7 +2,7 @@
 //  Evento.h
 //  Vacinas
 //
-//  Created by joão melo on 28/10/13.
+//  Created by joão melo on 10/11/13.
 //  Copyright (c) 2013 Diego Ribeiro. All rights reserved.
 //
 
@@ -15,6 +15,7 @@
 
 @property (nonatomic, retain) NSDate * planejado;
 @property (nonatomic, retain) NSDate * realizado;
+@property (nonatomic, retain) NSString * observacao;
 @property (nonatomic, retain) Dose *dose;
 @property (nonatomic, retain) Pessoa *pessoa;
 

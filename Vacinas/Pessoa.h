@@ -2,7 +2,7 @@
 //  Pessoa.h
 //  Vacinas
 //
-//  Created by joão melo on 28/10/13.
+//  Created by joão melo on 10/11/13.
 //  Copyright (c) 2013 Diego Ribeiro. All rights reserved.
 //
 
@@ -13,10 +13,11 @@
 
 @interface Pessoa : NSManagedObject
 
-@property (nonatomic, retain) NSString * nome;
-@property (nonatomic, retain) NSDate * nascimento;
-@property (nonatomic, retain) NSString * tipoSanguineo;
 @property (nonatomic, retain) id foto;
+@property (nonatomic, retain) NSDate * nascimento;
+@property (nonatomic, retain) NSString * nome;
+@property (nonatomic, retain) NSString * tipoSanguineo;
+@property (nonatomic, retain) NSString * descricao;
 @property (nonatomic, retain) NSSet *eventos;
 @end
 
