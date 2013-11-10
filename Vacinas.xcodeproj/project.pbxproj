@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2CE2BD182522170026C4B5 /* mais.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF2CE2BC182522170026C4B5 /* mais.jpg */; };
+		DF31242A181F0101003EF157 /* mais_azul.png in Resources */ = {isa = PBXBuildFile; fileRef = DF312429181F0100003EF157 /* mais_azul.png */; };
+		DF312430181F2382003EF157 /* CartaoVacinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF31242F181F2382003EF157 /* CartaoVacinaViewController.m */; };
+		DF7974E518252CE7006E8003 /* borda azul.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF7974E418252CE7006E8003 /* borda azul.gif */; };
+		DF97E381181EA058004E1E56 /* add photo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF97E380181EA058004E1E56 /* add photo.png */; };
+		DF97E387181EA627004E1E56 /* PessoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF97E386181EA627004E1E56 /* PessoaViewController.m */; };
 		DFAC8B6418085FA1009EA6F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC8B6318085FA1009EA6F1 /* Foundation.framework */; };
 		DFAC8B6618085FA1009EA6F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC8B6518085FA1009EA6F1 /* CoreGraphics.framework */; };
 		DFAC8B6818085FA1009EA6F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC8B6718085FA1009EA6F1 /* UIKit.framework */; };
@@ -27,6 +33,8 @@
 		DFAC8C79180CD363009EA6F1 /* TabelaPessoasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC8C78180CD363009EA6F1 /* TabelaPessoasViewController.m */; };
 		DFAC8C7C180CE760009EA6F1 /* PessoaCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAC8C7B180CE760009EA6F1 /* PessoaCellController.m */; };
 		DFAC8C7E180CEC8C009EA6F1 /* bebe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFAC8C7D180CEC8C009EA6F1 /* bebe.jpg */; };
+		DFB5F6971825A37600A5E5EA /* vacina_pequeno.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB5F6961825A37600A5E5EA /* vacina_pequeno.png */; };
+		DFB5F6991825A57300A5E5EA /* vacina_grande.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB5F6981825A57300A5E5EA /* vacina_grande.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF2CE2BC182522170026C4B5 /* mais.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mais.jpg; sourceTree = "<group>"; };
+		DF312429181F0100003EF157 /* mais_azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mais_azul.png; sourceTree = "<group>"; };
+		DF31242E181F2382003EF157 /* CartaoVacinaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CartaoVacinaViewController.h; path = ../CartaoVacinaViewController.h; sourceTree = "<group>"; };
+		DF31242F181F2382003EF157 /* CartaoVacinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CartaoVacinaViewController.m; path = ../CartaoVacinaViewController.m; sourceTree = "<group>"; };
+		DF7974E418252CE7006E8003 /* borda azul.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "borda azul.gif"; sourceTree = "<group>"; };
+		DF97E380181EA058004E1E56 /* add photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add photo.png"; sourceTree = "<group>"; };
+		DF97E385181EA627004E1E56 /* PessoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PessoaViewController.h; path = ../PessoaViewController.h; sourceTree = "<group>"; };
+		DF97E386181EA627004E1E56 /* PessoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PessoaViewController.m; path = ../PessoaViewController.m; sourceTree = "<group>"; };
 		DFAC8B6018085FA1009EA6F1 /* Vacinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vacinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAC8B6318085FA1009EA6F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFAC8B6518085FA1009EA6F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,6 +85,8 @@
 		DFAC8C7A180CE760009EA6F1 /* PessoaCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PessoaCellController.h; sourceTree = "<group>"; };
 		DFAC8C7B180CE760009EA6F1 /* PessoaCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PessoaCellController.m; sourceTree = "<group>"; };
 		DFAC8C7D180CEC8C009EA6F1 /* bebe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bebe.jpg; sourceTree = "<group>"; };
+		DFB5F6961825A37600A5E5EA /* vacina_pequeno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vacina_pequeno.png; sourceTree = "<group>"; };
+		DFB5F6981825A57300A5E5EA /* vacina_grande.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vacina_grande.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +190,13 @@
 		DFAC8B9A180861E6009EA6F1 /* Imagens */ = {
 			isa = PBXGroup;
 			children = (
+				DFB5F6981825A57300A5E5EA /* vacina_grande.png */,
+				DFB5F6961825A37600A5E5EA /* vacina_pequeno.png */,
+				DF7974E418252CE7006E8003 /* borda azul.gif */,
+				DF2CE2BC182522170026C4B5 /* mais.jpg */,
+				DF312429181F0100003EF157 /* mais_azul.png */,
 				DFAC8C7D180CEC8C009EA6F1 /* bebe.jpg */,
+				DF97E380181EA058004E1E56 /* add photo.png */,
 				DFAC8B98180861DD009EA6F1 /* splash.gif */,
 			);
 			name = Imagens;
@@ -192,6 +216,10 @@
 		DFAC8C76180CD205009EA6F1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DF31242E181F2382003EF157 /* CartaoVacinaViewController.h */,
+				DF31242F181F2382003EF157 /* CartaoVacinaViewController.m */,
+				DF97E385181EA627004E1E56 /* PessoaViewController.h */,
+				DF97E386181EA627004E1E56 /* PessoaViewController.m */,
 				DFAC8B7818085FA1009EA6F1 /* SplashViewController.h */,
 				DFAC8B7918085FA1009EA6F1 /* SplashViewController.m */,
 				DFAC8C77180CD363009EA6F1 /* TabelaPessoasViewController.h */,
@@ -278,11 +306,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF31242A181F0101003EF157 /* mais_azul.png in Resources */,
+				DF2CE2BD182522170026C4B5 /* mais.jpg in Resources */,
 				DFAC8B7C18085FA1009EA6F1 /* Images.xcassets in Resources */,
+				DF97E381181EA058004E1E56 /* add photo.png in Resources */,
 				DFAC8C7E180CEC8C009EA6F1 /* bebe.jpg in Resources */,
 				DFAC8B99180861DD009EA6F1 /* splash.gif in Resources */,
+				DFB5F6991825A57300A5E5EA /* vacina_grande.png in Resources */,
 				DFAC8B6E18085FA1009EA6F1 /* InfoPlist.strings in Resources */,
+				DF7974E518252CE7006E8003 /* borda azul.gif in Resources */,
 				DFAC8B7718085FA1009EA6F1 /* Main.storyboard in Resources */,
+				DFB5F6971825A37600A5E5EA /* vacina_pequeno.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +338,12 @@
 				DFAC8C79180CD363009EA6F1 /* TabelaPessoasViewController.m in Sources */,
 				DFAC8B7A18085FA1009EA6F1 /* SplashViewController.m in Sources */,
 				DFAC8B7418085FA1009EA6F1 /* AppDelegate.m in Sources */,
+				DF97E387181EA627004E1E56 /* PessoaViewController.m in Sources */,
 				DFAC8BA118086578009EA6F1 /* Vacina.m in Sources */,
 				DFAC8B9E18086462009EA6F1 /* Pessoa.m in Sources */,
 				DFAC8C7C180CE760009EA6F1 /* PessoaCellController.m in Sources */,
 				DFAC8B7018085FA1009EA6F1 /* main.m in Sources */,
+				DF312430181F2382003EF157 /* CartaoVacinaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
